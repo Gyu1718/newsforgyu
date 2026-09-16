@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "briefings": [{
+    "date": "2026-09-15",
+    "market_date": "2026-09-14",
+    "status": "summary",
+    "summary": "FOMC가 오늘 밤 이틀 일정에 들어갑니다. 25bp 인상 확률은 83~90% 구간이고, 성사되면 2023년 이후 첫 인상입니다. 미 10년물이 장중 5%를 찍었고 AI 속도조절 논의가 메모리·반도체를 끌어내렸습니다.",
+    "figures": [
+      {"label": "S&P 500", "change_pct": -0.56},
+      {"label": "나스닥", "change_pct": -0.84},
+      {"label": "코스피", "change_pct": -3.26}
+    ],
+    "unverified_count": 8,
+    "sources": [],
+    "sections": []
+  }]
+}
