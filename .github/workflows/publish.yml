@@ -30,10 +30,12 @@ jobs:
         run: |
           rm -rf docs/briefings
           python3 scripts/build.py
+          python3 scripts/site_extras.py
 
       - name: Validate generated site
         run: |
           python3 scripts/build.py --check
+          python3 scripts/site_extras.py --check
           python3 scripts/check_site.py
 
       - name: Commit generated Pages files
